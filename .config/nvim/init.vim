@@ -27,7 +27,7 @@ function! s:show_documentation()
   endif
 endfunction
 
-nnoremap <esc> <silent> :noh<cr><esc>
+nnoremap <esc> :noh<return><esc>
 
 call plug#begin('~/.vim/plugged')
   Plug 'unblevable/quick-scope'
